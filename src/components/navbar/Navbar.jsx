@@ -2,6 +2,12 @@ import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import { useState } from "react";
 
+
+
+
+
+
+
 export default function Navbar() {
 
     const [isActive, setIsActive] = useState(true);
@@ -29,20 +35,20 @@ export default function Navbar() {
             <div className={isActive ? "menu " : "menu display"} onClick={InWidth}>
 
 
-                <NavLink to="/RealControlF" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
+                <NavLink to="/MLJM" onClick={()=>window.scrollTo(0,0)}> Inicio </NavLink>
 
-                <NavLink to="/RealControlF/servicios" onClick={()=>window.scrollTo(0,0)}> Servicios </NavLink>
+                <NavLink to="/MLJM/GRUPO" onClick={()=>window.scrollTo(0,0)}> GRUPO </NavLink>
 
-                <NavLink to="/RealControlF/tecnicas" onClick={()=>window.scrollTo(0,0)}> Tecnicas </NavLink>
+                <NavLink to="/MLJM/CENACULOS" onClick={()=>window.scrollTo(0,0)}> CENACULOS </NavLink>
 
-                <NavLink to="/RealControlF/tipos" onClick={()=>window.scrollTo(0,0)}> Tipos de Plagas </NavLink>
+                <NavLink to="/MLJM/CONSAGRACIONES" onClick={()=>window.scrollTo(0,0)}> CONSAGRACIONES </NavLink>
+{/*
+                <NavLink to="/MLJM/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
 
-                <NavLink to="/RealControlF/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
+                <NavLink to="/MLJM/clientes" onClick={()=>window.scrollTo(0,0)}> Clientes </NavLink>
 
-                <NavLink to="/RealControlF/clientes" onClick={()=>window.scrollTo(0,0)}> Clientes </NavLink>
-
-                <NavLink to="/RealControlF/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
-
+                <NavLink to="/MLJM/contacto" onClick={()=>window.scrollTo(0,0)}> Contacto </NavLink>
+*/}
                 {/*<NavLink to="/AhilloPage/gobierno">    Gobierno </NavLink>
 
                 <NavLink to="/AhilloPage/PGP"> PGP 2031-2033 </NavLink>

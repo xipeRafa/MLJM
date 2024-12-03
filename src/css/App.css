@@ -34,7 +34,7 @@ button{
   text-transform: uppercase!important;
 }
 
-.whatsapp{
+/*.whatsapp{
     position: fixed;
     top: 80%; left: calc(100% - 100px);
     width: 100px;
@@ -46,4 +46,4 @@ button{
     top: 90%; left: calc(100% - 60px);
       width: 60px;
   } 
-}
+}*/

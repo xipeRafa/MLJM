@@ -14,8 +14,8 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --logoColor: #e3202c;
-  --logoColorT: rgba(227, 0, 0, .78);
+  --logoColor: rgba(46, 98, 93);
+  --logoColorT: rgba(46, 98, 93);
 
 
   --gray-dark: #343a40;
@@ -40,7 +40,7 @@
   --green: #198754;
   --green2: #20c997;
   --blue2: #0dcaf0;
-
+  --gold: #e8b34b;
 }
 
 *{

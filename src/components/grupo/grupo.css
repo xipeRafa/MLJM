@@ -29,7 +29,7 @@
 
 
 .g4{
-  width: 50%;
+  width: 100%;
 }
 
 .gallery{
@@ -73,7 +73,7 @@
 }
 
 .servicioLabel{
-  border: 1px solid red;
+  border: 1px solid var(--gold);
   text-align: center;
   margin-top: 40px;
   padding: 10px;

@@ -1,7 +1,7 @@
 import "./clientes.css";
 
 
-import Banner from '../banner/Banner'
+// import Banner from '../banner/Banner'
 
 
 
@@ -68,7 +68,7 @@ export default function Header() {
             <div><img src={c16} /></div>
         </div>
 
-        <Banner />
+        {/*<Banner />*/}
         <br />
          <br />
           <br />

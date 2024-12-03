@@ -12,13 +12,13 @@ export default function Footer() {
             <footer>
                   
 				CONTACTO:<br />
-				Martin Roberto Jacott Muñoz <span>📱 662 1902558</span><br />
-				Roberto Carlos Jacott Alduenda <span>📱 662 3174378</span><br />
+				Martin Roberto  <span>📱 1233456</span><br />
+				Roberto Carlos   <span>📱 123456</span><br />
 				<hr />
-				realcontrolhmo@outlook.com<br />
-				realcontrolhmo@gmail.com<br />
-				<a href="https://www.facebook.com/profile.php?id=100065216133217&locale=es_LA" target='_blank'>
-						facebook: Fumigaciones Real Control
+				correo@outlook.com<br />
+				correo@gmail.com<br />
+				<a href="" target='_blank'>
+						facebook: JXM
 				</a>
 				   <hr />
                 Horario: <br />
@@ -27,10 +27,10 @@ export default function Footer() {
 				 <br />
 				<hr />
 				DIRECCION: <br />
-				Calle 5 DE MAYO #32 <br />
+				texto4 <br />
 				Hermosillo, Sonora <br />
-				Entre No Reelección e Independencia<br />
-				Col. Villa de Seris<br />
+				Entre Direcion<br />
+				Col. Colonia<br />
 
 
             </footer>

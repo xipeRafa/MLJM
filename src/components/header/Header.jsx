@@ -1,6 +1,7 @@
 import './header.css'
-import img2 from "../../imgs/rc3.png";
-import Banner from '../banner/Banner'
+import mom from "../../imgs/mom.webp";
+import large from "../../imgs/large.webp";
+// import Banner from '../banner/Banner'
 
 export default function Header() {
 
@@ -8,29 +9,31 @@ export default function Header() {
     return ( <> 
 
   <header>
-        <p>35 AÑOS DE EXPERIENCIA, CALIDAD Y EFECTIVIDAD EN EL CONTROL DE PLAGAS</p>
+        <p>Movimiento Laical a Jesús por Maria</p>
 
-        <span>SERVICIOS GARANTIZADOS HASTA 5 AÑOS</span>
-        <br />  <br />
-        <p>SERVICIO DOMÉSTICO, COMERCIAL E INDUSTRIAL</p>
-
-
-
+        <span>JxM</span>
+        <br />  
+        <br />
+        <p>texto 1</p>
 
 
-        <div className="sombra">
-        <img src={img2} />
+
+
+
+      <div className="sombra imgsHeader">
+            <img className="imgsHeader1" src={mom} />
+            <img className="imgsHeader2" src={large} />
       </div>
 
 
 
      
 
-            <Banner />
+            {/*<Banner />*/}
  <br /> 
 
-            <p>Real Control pone a su servicio los mejores Productos y Equipos para un Servicio Completamente Profesional</p>
-<p>Efectivo y con Resultado Inmediato</p>
+            <p>texto 2</p>
+<p>texto 3</p>
 
 
 
