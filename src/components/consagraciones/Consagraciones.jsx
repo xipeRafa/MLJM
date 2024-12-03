@@ -1,13 +1,13 @@
 
 
-import './tipos.css'
+import './consagraciones.css'
 
 
 
 
 
 
-export default function Servicios() {
+export default function Consagraciones() {
 	return(
 			<>
 				

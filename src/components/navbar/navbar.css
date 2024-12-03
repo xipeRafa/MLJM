@@ -23,7 +23,7 @@
     padding: 0px;
     background-color: var(--logoColor);
     user-select: none;
-    border-top:1px solid black;
+  
 
 }
 
@@ -31,8 +31,8 @@
 .hamburger {
     display: flex;
     justify-content: space-between;
-    height: 40px;
-    padding: 5px 10px;
+    height: 50px;
+    padding:  16px;
     margin: 0 auto;
     background-color: var(--logoColor);
     align-items: center;
@@ -64,6 +64,7 @@
 
 @media (max-width: 1000px) {
     .menu {
+          border-top:1px solid var(--gold);
         position: fixed;
         left: -1100px;
             height: 100vh;
