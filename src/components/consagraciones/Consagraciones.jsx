@@ -20,7 +20,7 @@ export default function Consagraciones() {
 				
    			
 
-<h4 className='t1'>¿Qué tiene de Especial esta Consagración?</h4><br />
+<h4 className='t1'>¿Qué tiene de Especial esta Consagración?</h4>
 <p className='texto1'>
 Es la única recomendada por los papas.<br /> (Numeral 48 Redentoris Mater). Por lo que como Movimiento Laical y/o grupo somos también difusores de una consagración<br />
  que ya es patrimonio de nuestra Iglesia católica Universal,<br />
