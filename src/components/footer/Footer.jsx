@@ -15,10 +15,9 @@ export default function Footer() {
 				Martin Roberto  <span>📱 1233456</span><br />
 				Roberto Carlos   <span>📱 123456</span><br />
 				<hr />
-				correo@outlook.com<br />
-				correo@gmail.com<br />
+				mlajesusxmaria@gmail.com <br />
 				<a href="https://www.facebook.com/MLJxM" target='_blank'>
-						facebook: JxM
+						FACEBOOK ↗
 				</a>
 				   <hr />
                 Horario: <br />
