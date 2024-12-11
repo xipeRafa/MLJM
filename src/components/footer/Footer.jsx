@@ -17,8 +17,8 @@ export default function Footer() {
 				<hr />
 				correo@outlook.com<br />
 				correo@gmail.com<br />
-				<a href="" target='_blank'>
-						facebook: JXM
+				<a href="https://www.facebook.com/MLJxM" target='_blank'>
+						facebook: JxM
 				</a>
 				   <hr />
                 Horario: <br />
