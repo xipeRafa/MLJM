@@ -12,24 +12,24 @@ export default function Footer() {
             <footer>
                   
 				CONTACTO:<br />
-				Martin Roberto  <span>📱 1233456</span><br />
-				Roberto Carlos   <span>📱 123456</span><br />
+				Miroslava Saavedra  <span>📱 662 120 8382 </span><br />
 				<hr />
-				mlajesusxmaria@gmail.com <br />
+
+				mlajesusxmaria@gmail.com <br /><br />
+
 				<a href="https://www.facebook.com/MLJxM" target='_blank'>
-						FACEBOOK ↗
+					FACEBOOK ↗
 				</a>
-				   <hr />
+
+				<hr />
+
                 Horario: <br />
                 Lunes a Viernes de 8 am a 8 pm <br />
                 Sabados de 8 am a 4 pm
 				 <br />
 				<hr />
-				DIRECCION: <br />
-				texto4 <br />
+				Arquidiócesis de Hermosillo <br />
 				Hermosillo, Sonora <br />
-				Entre Direcion<br />
-				Col. Colonia<br />
 
 
             </footer>
