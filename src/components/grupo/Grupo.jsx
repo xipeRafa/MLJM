@@ -36,23 +36,14 @@ export default function Grupo() {
   return (<>
 
   {boolState ?
-    <p className="servicios1">
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion      
-      <br />
 
-       informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
+    <p className="servicios1">
+     <h4>¿Porque Consagrarse a Jesús a través de María?</h4>
+          La esencia de esta Consagración es realizar la Renovación personal y consciente de nuestros compromisos Bautismales, <br />
+          que es la consagración por excelencia. Todo bautizado ha sido elegido por Dios para ser sus hijos por medio de la gracia, <br />
+          debido a la redención de Cristo, en el Concilio Vaticano II, en la Constitución Lumen Gentium, Numeral 10, se nos dice que:<br />
+          <b>”Nosotros Hemos Sido Consagrados por el Bautismo, Regenerados por la Gracia”</b><br /> <br />
+          Luego entonces la consagración... 
      
       <p className={boolState ? 'leerMas':'d-none'} onClick={()=>setBoolState(!boolState)}>Leer Mas..</p>
     </p>
@@ -61,67 +52,30 @@ export default function Grupo() {
 
 
     :
+        <p className="servicios1">
+          
+          La esencia de esta Consagración es realizar la Renovación personal y consciente de nuestros compromisos Bautismales, <br />
+          que es la consagración por excelencia. Todo bautizado ha sido elegido por Dios para ser sus hijos por medio de la gracia, <br />
+          debido a la redención de Cristo, en el Concilio Vaticano II, en la Constitución Lumen Gentium, Numeral 10, se nos dice que:<br />
+          <b>”Nosotros Hemos Sido Consagrados por el Bautismo, Regenerados por la Gracia”</b><br /> <br />
+          Luego entonces la consagración en sí misma es la renovación de los compromisos Bautismales y esto significa que esta <br />
+          consagración no es que te añada compromisos por el hecho de consagrarte a Jesús por María; si no que más bien te ayuda a <br />
+          vivirlos de una manera más consciente y adecuada, pues los compromisos ya los tenemos solo por el hecho de ser Bautizados.<br />
+          A lo que esta consagración te lleva es, más bien a darnos cuenta, tener la conciencia, las herramientas y los elementos para<br />
+          poder vivir adecuadamente estos compromisos bautismales.<br /><br />
+          Consagrarse = Renovar nuestros compromisos Bautismales buscando ser coherentes en nuestras vidas como bautizados.<br />
+          San Luis María Grignion de Monfort en su libro el Tratado de la verdadera Devoción, que es el libro base para realizar <br />
+          este proceso de preparación de esta consagración, nos establece con toda claridad que esta consagración tiene como <br />
+          fundamento el bautismo <br /><br />
+          Numeral 120... “La Perfecta Consagración a Jesucristo; es por lo mismo una Perfecta y <br />
+          total Consagración de sí Mismo a la Santísima Virgen María”.<br />
+      
 
 
 
-
-     <p className="servicios1">
-       informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
-
-    
-      <br />
-     informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
-      <br />
-      <br />
-    informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
-
-      <br />
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
-      <br />
-    informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
-      <br />
-      <br />
  
-      <br />
- informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion
-      informacion informacion  
       <p className={!boolState ? 'leerMas':'d-none'} onClick={()=>{setBoolState(!boolState), window.scrollTo(0,0)}}>Leer Menos..</p>
-    </p>}
+      </p>}
 
 <hr />
 

@@ -8,18 +8,17 @@
 	 text-align: center;
 }
 
-.tipos span{
+.t1{
 	color: var(--gold);
 }
 
 
 
-.tipoDePlagas{
+.texto1{
   padding: 20px;
   text-align: center;
   margin: 20px 0;
   font-size: 20px;
-  border: 2px solid var(--logoColor);
   color: var(--gray-700);
 }
 

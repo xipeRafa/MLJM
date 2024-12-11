@@ -29,10 +29,10 @@
 
 /* gris */
 .hamburger {
-    display: flex;
-    justify-content: space-between;
     height: 50px;
     padding:  16px;
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     background-color: var(--logoColor);
     align-items: center;
