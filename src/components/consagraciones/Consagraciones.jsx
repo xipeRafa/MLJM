@@ -78,7 +78,7 @@ Aunque existen varias y diferentes consagraciones, quizás unas de carácter má
         <div className={displayState !== '3' ? 'd-none' : 'displayX'}>
             <div>
                     <h3>
-                        3-Exije una seria preparación.
+                        3.- Exije una seria preparación.
                     </h3>
             </div> 
         </div>
@@ -114,7 +114,7 @@ Aunque existen varias y diferentes consagraciones, quizás unas de carácter má
                   
             <div>
                     <h3>      
-                        4- Es Cristocéntrica, María no es el centro, Cristo es el centro, lo que pasa es que allí donde esta Cristo esta María, 
+                        4.- Es Cristocéntrica, María no es el centro, Cristo es el centro, lo que pasa es que allí donde esta Cristo esta María, 
                         y María esta en el corazón de Cristo y por eso es imposible separarlos. Por tanto, si establecemos la solida devoción a 
                         la Santísima Virgen, es solo para establecer mas perfectamente la de Jesucristo y ofrecer un medio Fácil y Seguro para 
                         encontrar al Señor, “Si la devoción a la Santísima Virgen nos apartase de Jesucristo,<br/>
@@ -139,7 +139,7 @@ Aunque existen varias y diferentes consagraciones, quizás unas de carácter má
             <div>
                    
                   <h3>
-                        5- Totalidad de la entrega.
+                        5.- Totalidad de la entrega.
                         Esta consagración exige que entreguemos todo a Jesús por María; no significa que tenemos que ser sacerdotes, ni ser religiosas,
                         ni significa que tendremos que cambiar nuestro Estado de vida; No, lo único que significa es que vamos a asumir de verdad esto<br/>
                         que asumimos en el bautismo, o que dijeron nuestros padrinos en el bautismo por nosotros, le pertenecemos completamente a Cristo.
@@ -158,7 +158,7 @@ Aunque existen varias y diferentes consagraciones, quizás unas de carácter má
         <div className={displayState2 !== '6' ? 'd-none' : 'displayX'}>
             <div>
                     <h3>
-                        6- Unión con Jesús y con María - Nos lleva a vivir estrechamente unido a Jesús por medio de María, en eso consiste finalmente
+                        6.- Unión con Jesús y con María - Nos lleva a vivir estrechamente unido a Jesús por medio de María, en eso consiste finalmente
                         la santidad. La Santidad consiste en unirnos a Jesús, y por esta ocasión lo vamos a hacer por medio de María, 
                         ¿y porque por medio de María?, porque no ha habido creatura que haya estado tan más estrechamente unida a Dios. <br/><br/>
                         Hija del padre de una manera del todo predilecta, porque el padre la escogió para encarnar a su Divino hijo en sus entrañas.
