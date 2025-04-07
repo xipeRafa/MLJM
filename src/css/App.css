@@ -32,6 +32,8 @@
 
 button{
   text-transform: uppercase!important;
+box-shadow: rgba(33, 67, 100, .3) 0px -50px 36px -28px inset;
+border: 1px solid white!important;
 }
 
 /*.whatsapp{

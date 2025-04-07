@@ -103,10 +103,11 @@
 
 @media (max-width: 1000px) {
 	.buttonsContainer{
-		flex-direction: column;
+
 	}
 	.buttonsContainer>button{
 		width: 100%;
+			margin: 0 10px;
 	}
     .displayX{
     	flex-direction: column;
