@@ -1,8 +1,56 @@
 import './mensaje.css'
-import { useState } from "react";
+import { useState, useEffect } from "react";
+
+import {
+  getDocs,
+  collection,
+  addDoc,
+  deleteDoc,
+  doc,
+  updateDoc,
+  where,
+  query,
+} from 'firebase/firestore';
+
+import { firestoreDB } from '../../firebase/firebaseConfig';
+
+
 
 
 export default function Mensaje() {
+
+	 	const dbCollection = query(
+    			collection(firestoreDB, 'mensajes'),
+    			// where('email', '==', localStorage.getItem('userEmailLS'))
+  		);
+
+	 	// const [items, setItems] = useState([]);
+
+	 	// console.log(items)
+
+  		// useEffect(() => {
+    	// 	let isMounted = true;
+
+    	// 	getDocs(dbCollection)
+      	// 		.then((querySnapshot) => {
+        // 			if (querySnapshot.size === 0) {
+        //   			console.log('No results!');
+        // 		}
+
+        // 			const documents = querySnapshot.docs.map((doc) => ({
+        //   				id: doc.id,
+        //   				...doc.data(),
+        // 			}));
+
+        // 			setItems(documents);
+      	// 		})
+      	// 		.catch((err) => {
+        // 			console.log('Error searching items', err);
+      	// 		});
+
+		// 	    isMounted = false;
+  		// }, []);
+
 
 
 		const[mensajeState, setMensajeState]=useState({
@@ -12,7 +60,7 @@ export default function Mensaje() {
 				msj:''
 		})
 
-console.log(mensajeState)
+
 		const { name, mail, tel, msj } = mensajeState
 
 
@@ -34,6 +82,10 @@ console.log(mensajeState)
 					alert('ESCRIBE EL MENSAJE')
 					return
 				}
+
+				mensajeState.date = Date.now()
+
+				addDoc(dbCollection, mensajeState);
 
 				setMensajeState({
 						name:'',
@@ -60,10 +112,10 @@ console.log(mensajeState)
     						<input type="text" name='name' value={name} onChange={(e)=>handlerMensaje(e)}/>
   					</div>
 
-  					<div className="form-group">
+  					{/*<div className="form-group">
     						<label>CORREO (opcional)</label>
     						<input type="text" name='mail' value={mail} onChange={(e)=>handlerMensaje(e)}/>
-  					</div>
+  					</div>*/}
 
    					<div className="form-group">
     						<label>TELEFONO (opcional)</label>
