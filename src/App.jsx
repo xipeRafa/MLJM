@@ -13,6 +13,8 @@ import Grupo from "./components/grupo/Grupo";
 import Header from "./components/header/Header";
 import Consagraciones from "./components/consagraciones/Consagraciones";
 
+import Mensajes from "./components/mensaje/Mensaje";
+
 
 // import Contacto from "./components/contacto/Contacto";
 import Cenaculos from "./components/cenaculos/Cenaculos";
@@ -32,12 +34,17 @@ function App() {
         <Route path="/MLJM/CENACULOS" element={<Cenaculos />} />
       
         <Route path="/MLJM/CONSAGRACIONES" element={<Consagraciones />} />
+
+        <Route path="/MLJM/MENSAJES" element={<Mensajes />} />
+
+
      {/*   <Route path="/RealControlF/licencias" element={<Licencias />} />
         <Route path="/RealControlF/clientes" element={<Clientes />} />
 
         <Route path="/RealControlF/contacto" element={<Contacto />} />
 
         <Route path="*" element={<Header />} />*/}
+
       </Routes>
 
 

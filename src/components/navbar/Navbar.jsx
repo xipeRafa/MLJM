@@ -7,7 +7,6 @@ import { useState } from "react";
 
 
 
-
 export default function Navbar() {
 
     const [isActive, setIsActive] = useState(true);
@@ -42,6 +41,8 @@ export default function Navbar() {
                 <NavLink to="/MLJM/CENACULOS" onClick={()=>window.scrollTo(0,0)}> CENACULOS </NavLink>
 
                 <NavLink to="/MLJM/CONSAGRACIONES" onClick={()=>window.scrollTo(0,0)}> CONSAGRACIONES </NavLink>
+
+                <NavLink to="/MLJM/MENSAJES" onClick={()=>window.scrollTo(0,0)}> CONTACTO </NavLink>
 {/*
                 <NavLink to="/MLJM/licencias" onClick={()=>window.scrollTo(0,0)}> Licencias </NavLink>
 
